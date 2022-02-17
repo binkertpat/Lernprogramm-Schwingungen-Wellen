@@ -1,0 +1,271 @@
+object start: Tstart
+  Left = 461
+  Height = 556
+  Top = 184
+  Width = 1200
+  Caption = 'mechanische Schwingungen'
+  ClientHeight = 556
+  ClientWidth = 1200
+  Color = clWhite
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object P_orange: TPanel
+    Left = -8
+    Height = 176
+    Top = -40
+    Width = 1232
+    ClientHeight = 176
+    ClientWidth = 1232
+    Color = 33023
+    ParentColor = False
+    TabOrder = 0
+    object T_ueberschrift: TLabel
+      Left = 32
+      Height = 41
+      Top = 64
+      Width = 465
+      Caption = 'mechanische Schwingungen'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -35
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object T_untertitel: TLabel
+      Left = 32
+      Height = 33
+      Top = 112
+      Width = 325
+      Caption = 'Theorie und Wissenstest'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -29
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object B_gw1: TButton
+    Left = 64
+    Height = 67
+    Top = 232
+    Width = 336
+    Caption = 'Grundwissen 1'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clLime
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_gw1Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object B_gw2: TButton
+    Left = 432
+    Height = 67
+    Top = 232
+    Width = 336
+    Caption = 'Grundwissen 2'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_gw2Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object B_kraftenergie: TButton
+    Left = 64
+    Height = 67
+    Top = 320
+    Width = 336
+    Caption = 'Kraft- und Energiebeschreibung'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_kraftenergieClick
+    ParentFont = False
+    TabOrder = 3
+  end
+  object B_groessenrelationen: TButton
+    Left = 432
+    Height = 67
+    Top = 320
+    Width = 336
+    Caption = 'spezifische Größen und Relationen'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_groessenrelationenClick
+    ParentFont = False
+    TabOrder = 4
+  end
+  object B_gedaempftharmonisch: TButton
+    Left = 800
+    Height = 67
+    Top = 320
+    Width = 336
+    Caption = 'gedämpfte harmonische Schwingung'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_gedaempftharmonischClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object P_hgbild: TPanel
+    Left = 824
+    Height = 280
+    Top = 19
+    Width = 287
+    Caption = 'Platzhalter Bild'
+    ClientHeight = 280
+    ClientWidth = 287
+    Color = clMenuText
+    ParentColor = False
+    TabOrder = 6
+    object B_pendel: TImage
+      Left = 0
+      Height = 280
+      Top = 0
+      Width = 287
+    end
+  end
+  object P_strich: TPanel
+    Left = 10
+    Height = 4
+    Top = 412
+    Width = 1180
+    Color = clBlack
+    ParentColor = False
+    TabOrder = 7
+  end
+  object B_startetest: TButton
+    Left = 432
+    Height = 67
+    Top = 472
+    Width = 336
+    Caption = 'Wissenstest starten!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = B_startetestClick
+    ParentFont = False
+    TabOrder = 8
+  end
+  object B_beenden: TButton
+    Left = 1064
+    Height = 27
+    Top = 512
+    Width = 128
+    Caption = 'beenden'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_beendenClick
+    ParentFont = False
+    TabOrder = 9
+  end
+  object T_allesverstanden: TLabel
+    Left = 106
+    Height = 24
+    Top = 432
+    Width = 988
+    Caption = 'Hast du alles verstanden? Dann teste dich jetzt selbst, in dem du auf ''Wissenstest starten'' klickst!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object T_einfuehrung: TLabel
+    Left = 88
+    Height = 48
+    Top = 160
+    Width = 645
+    Alignment = taCenter
+    Caption = 'Beginnen wir zunächst damit, dir die Thematik nahe zu bringen. '#13#10'Klicke dich dafür durch alle Themengebiete!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Panel1: TPanel
+    Left = 58
+    Height = 67
+    Top = 232
+    Width = 10
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 10
+  end
+  object Panel2: TPanel
+    Left = 58
+    Height = 67
+    Top = 320
+    Width = 10
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 11
+  end
+  object Panel3: TPanel
+    Left = 426
+    Height = 67
+    Top = 232
+    Width = 10
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 12
+  end
+  object Panel4: TPanel
+    Left = 426
+    Height = 67
+    Top = 320
+    Width = 10
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 13
+  end
+  object Panel5: TPanel
+    Left = 794
+    Height = 67
+    Top = 320
+    Width = 10
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 14
+  end
+  object Panel6: TPanel
+    Left = 424
+    Height = 67
+    Top = 472
+    Width = 10
+    Color = clSilver
+    ParentColor = False
+    TabOrder = 15
+  end
+end

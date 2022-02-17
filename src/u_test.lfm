@@ -1,0 +1,271 @@
+object wissenstest: Twissenstest
+  Left = 461
+  Height = 554
+  Top = 184
+  Width = 1201
+  Caption = 'mechanische Schwingungen'
+  ClientHeight = 554
+  ClientWidth = 1201
+  Color = clWhite
+  OnCreate = FormCreate
+  LCLVersion = '1.8.2.0'
+  object P_orange: TPanel
+    Left = -8
+    Height = 176
+    Top = -32
+    Width = 1232
+    ClientHeight = 176
+    ClientWidth = 1232
+    Color = 33023
+    ParentColor = False
+    TabOrder = 0
+    object T_ueberschrift: TLabel
+      Left = 32
+      Height = 41
+      Top = 64
+      Width = 465
+      Caption = 'mechanische Schwingungen'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -35
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object T_untertitel: TLabel
+      Left = 32
+      Height = 33
+      Top = 112
+      Width = 161
+      Caption = 'Wissenstest'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -29
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object T_fragentext: TLabel
+    Left = 40
+    Height = 24
+    Top = 208
+    Width = 1136
+    AutoSize = False
+    Caption = 'Hier könnte Ihre Frage stehen...'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = 25
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+    WordWrap = True
+    OptimalFill = True
+  end
+  object T_fragennr: TLabel
+    Left = 40
+    Height = 24
+    Top = 176
+    Width = 116
+    Caption = 'Frage <nr>:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 152
+    Height = 28
+    Top = 296
+    Width = 96
+    Caption = 'Antwort '
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+    Visible = False
+  end
+  object RadioButton2: TRadioButton
+    Left = 152
+    Height = 28
+    Top = 352
+    Width = 96
+    Caption = 'Antwort '
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+    Visible = False
+  end
+  object RadioButton3: TRadioButton
+    Left = 152
+    Height = 28
+    Top = 408
+    Width = 96
+    Caption = 'Antwort '
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+    Visible = False
+  end
+  object B_check: TButton
+    Left = 152
+    Height = 52
+    Top = 472
+    Width = 190
+    Caption = 'Antwort überprüfen'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_checkClick
+    ParentFont = False
+    TabOrder = 4
+    Visible = False
+  end
+  object B_next: TButton
+    Left = 600
+    Height = 52
+    Top = 472
+    Width = 190
+    Caption = '> nächste Frage >'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_nextClick
+    ParentFont = False
+    TabOrder = 5
+    Visible = False
+  end
+  object B_beenden: TButton
+    Left = 1032
+    Height = 27
+    Top = 512
+    Width = 160
+    Caption = 'vorzeitiges beenden'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_beendenClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object T_korrekt: TLabel
+    Left = 120
+    Height = 24
+    Top = 486
+    Width = 257
+    Caption = 'Deine Antwort war richtig!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object E_name: TEdit
+    Left = 464
+    Height = 30
+    Top = 344
+    Width = 282
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 7
+  end
+  object T_wissenstest: TLabel
+    Left = 340
+    Height = 32
+    Top = 232
+    Width = 520
+    Alignment = taCenter
+    Caption = 'Herzlich Willkommen zum Wissenstest!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -27
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object B_starten: TButton
+    Left = 520
+    Height = 52
+    Top = 392
+    Width = 190
+    Caption = 'Starten'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_startenClick
+    ParentFont = False
+    TabOrder = 8
+  end
+  object T_wissenstest1: TLabel
+    Left = 300
+    Height = 24
+    Top = 296
+    Width = 600
+    Alignment = taCenter
+    Caption = 'Bevor es los geht, musst du noch deinen Namen eintragen:'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object B_auswertung: TButton
+    Left = 600
+    Height = 52
+    Top = 472
+    Width = 190
+    Caption = 'Auswertung'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = B_auswertungClick
+    ParentFont = False
+    TabOrder = 9
+    Visible = False
+  end
+end

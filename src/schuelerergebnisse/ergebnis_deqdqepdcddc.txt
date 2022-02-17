@@ -1,0 +1,109 @@
+Ergebnis des Wissenstests für deqdqepdcddc :
+
+Frage 1 :
+Was ist eine mechanische Schwingung?
+a) Eine zeitlich periodische Bewegung eines Körpers um seine Ruhelage.
+b) Eine räumlich ausbreitende periodische Bewegung eines Körpers um seine Ruhelage.
+c) Eine zeitlich aperiodische Bewegung eines Körpers um seine Ruhelage.
+Die Antwort 3 war falsch, richtig wäre 1 gewesen!
+
+Frage 2 :
+In welchen Zuständen kann sich das Fadenpendel befinden?
+a) Ruhelage, Umkehrpunkte
+b) Ruhelage, Wechselpunkte
+c) Hängelage, Schräglage
+Die Antwort 3 war falsch, richtig wäre 1 gewesen!
+
+Frage 3 :
+Wie ist eine Periode definiert?
+a) Bezeichnet eine Bewegung von der Ruhelage zum Umkehrpunkt.
+b) Bezeichnet eine halbe Schwingung.
+c) Bezeichnet eine vollständige Schwingung.
+Die Antwort 3 war korrekt.
+
+Frage 4 :
+Für was steht das m und das D, welche zur Berechnung der Periodendauer T wichtig sind?
+a) m…Längenmaße der Feder, D…Dichte der Masse
+b) m…Masse, D…Federkonstante
+c) m…Anzahl der angehängten Gewichte, D…Länge des Fadens
+Die Antwort 3 war falsch, richtig wäre 2 gewesen!
+
+Frage 5 :
+Damit eine mechanische Schwingung ausgeführt werden kann, müssen bestimmte Bedingungen erfüllt werden. Welche sind das?
+a) Energiezufuhr – schwingungsfähiger Körper – periodische Bewegung um Ruhelage
+b) Keine Energiezufuhr - schwingungsfähiger Körper - periodische Bewegung um Ruhelage
+c) Energieerzeugung - schwingungsfähiger Körper – rotierende Bewegung um Ruhelage
+Die Antwort 3 war falsch, richtig wäre 1 gewesen!
+
+Frage 6 :
+Welches Diagramm dient am besten zur Veranschaulichung einer Schwingung?
+a) F-t-Diagramm
+b) y-t-Diagramm
+c) g-t-Diagramm
+Die Antwort 3 war falsch, richtig wäre 2 gewesen!
+
+Frage 7 :
+Wo kann man in einem y-t-Diagramm die Auslenkung y einer Schwingung ablesen?
+a) x-Achse
+b) y-Achse
+c) z-Achse
+Die Antwort 3 war falsch, richtig wäre 2 gewesen!
+
+Frage 8 :
+Wodurch entsteht die Reibung bei einer gedämpften Schwingung?
+a) Durch die Luft und die Aufhängung des Fadens.
+b) Durch die Kugel und deren Masse.
+c) Durch die Schwingung selbst.
+Die Antwort 3 war falsch, richtig wäre 1 gewesen!
+
+Frage 9 :
+Was gilt für die rücktreibende Kraft F(R)?
+a) An den Umkehrpunkten ist F(R)=0.
+b) In der Ruhelage ist F(R)=0.
+c) In der Ruhelage ist F(R)=max.
+Die Antwort 3 war falsch, richtig wäre 2 gewesen!
+
+Frage 10 :
+Was gilt für die potentielle Energie E(pot)?
+a) An den Umkehrpunkten ist E(pot)=max.
+b) An den Umkehrpunkten ist E(pot)=0.
+c) In der Ruhelage ist E(pot)=max.
+Die Antwort 3 war falsch, richtig wäre 1 gewesen!
+
+Frage 11 :
+Was gilt für die kinetische Energie E(kin)?
+a) In der Ruhelage ist E(kin)=0.
+b) An den Umkehrpunkten ist E(kin)=max.
+c) In der Ruhelage ist E(kin)=max.
+Die Antwort 3 war korrekt.
+
+Frage 12 :
+Inwiefern unterscheidet sich eine harmonische Schwingung von einer gedämpften Schwingung?
+a) Bei einer harmonischen Schwingung bleibt die Amplitude gleich.
+b) Bei einer harmonischen Schwingung verringert sich die Amplitude.
+c) Bei einer harmonischen Schwingung vergößert sich die Amplitude.
+Die Antwort 3 war falsch, richtig wäre 1 gewesen!
+
+Frage 13 :
+Gegeben sei eine Länge l =40 m. Wie groß ist die Periodendauer T (Annäherung: g =10 m/s^2 und π =3)?
+a) 6s
+b) 14s
+c) 12s
+Die Antwort 3 war korrekt.
+
+Frage 14 :
+Gegeben sei T =4s. Wie groß ist die Frequenz?
+a) 0,25 Hz
+b) 0,5 Hz
+c) 0,5 s
+Die Antwort 3 war falsch, richtig wäre 1 gewesen!
+
+Frage 15 :
+Gegeben sei eine Masse m =0,2kg und eine Federkonstante D =0,05N/m. Wie groß ist die Periodendauer T (mit Einheit)(Annäherung: π=3)?
+a) 10s
+b) 12s
+c) 4s
+Die Antwort 3 war falsch, richtig wäre 2 gewesen!
+
+
+deqdqepdcddc hat mit 3 Punkten die Note 5 erreicht!

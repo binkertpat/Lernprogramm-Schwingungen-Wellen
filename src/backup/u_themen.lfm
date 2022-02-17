@@ -1,0 +1,104 @@
+object themen: Tthemen
+  Left = 473
+  Height = 947
+  Top = 33
+  Width = 1156
+  Caption = 'mechanische Schwingungen'
+  ClientHeight = 947
+  ClientWidth = 1156
+  Color = clWhite
+  LCLVersion = '1.8.2.0'
+  object B_bilder: TImage
+    Left = 28
+    Height = 750
+    Top = 144
+    Width = 1100
+  end
+  object Button7: TButton
+    Left = 1000
+    Height = 27
+    Top = 904
+    Width = 128
+    Caption = 'zurück'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button7Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Panel1: TPanel
+    Left = 0
+    Height = 176
+    Top = -40
+    Width = 1232
+    ClientHeight = 176
+    ClientWidth = 1232
+    Color = 33023
+    ParentColor = False
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 32
+      Height = 41
+      Top = 64
+      Width = 465
+      Caption = 'mechanische Schwingungen'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -35
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      Font.Style = [fsBold]
+      ParentColor = False
+      ParentFont = False
+    end
+    object T_untertitel: TLabel
+      Left = 32
+      Height = 33
+      Top = 112
+      Width = 325
+      Caption = 'Theorie und Wissenstest'
+      Font.CharSet = ANSI_CHARSET
+      Font.Height = -29
+      Font.Name = 'Arial'
+      Font.Pitch = fpVariable
+      Font.Quality = fqDraft
+      ParentColor = False
+      ParentFont = False
+    end
+  end
+  object B_zurueck: TButton
+    Left = 513
+    Height = 33
+    Top = 904
+    Width = 59
+    Caption = '<<'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Arial Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = B_zurueckClick
+    ParentFont = False
+    TabOrder = 2
+  end
+  object B_vor: TButton
+    Left = 585
+    Height = 33
+    Top = 904
+    Width = 59
+    Caption = '>>'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -32
+    Font.Name = 'Arial Black'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = B_vorClick
+    ParentFont = False
+    TabOrder = 3
+  end
+end
